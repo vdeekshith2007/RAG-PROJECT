@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+test_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+
+# Git
+.git/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Vector Database
+vectorstore/*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
