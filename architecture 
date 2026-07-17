@@ -1,0 +1,59 @@
+                    +----------------------+
+                    |     User Uploads     |
+                    |        PDF File      |
+                    +----------+-----------+
+                               |
+                               v
+                  +-------------------------+
+                  |   PDF Loader (PyMuPDF / |
+                  |        PyPDFLoader)     |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Text Cleaning & Parsing |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Text Splitter           |
+                  | RecursiveCharacterText  |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Embedding Model         |
+                  | (OpenAI / Gemini /      |
+                  | HuggingFace)            |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Vector Database         |
+                  | (FAISS / ChromaDB /     |
+                  | AstraDB / Pinecone)     |
+                  +-----------+-------------+
+                              |
+                 User Question |
+                              v
+                  +-------------------------+
+                  | Embed User Question     |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Similarity Search       |
+                  | Top-K Relevant Chunks   |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | LLM (Gemini / Groq /    |
+                  | OpenAI / Llama)         |
+                  +-----------+-------------+
+                              |
+                              v
+                  +-------------------------+
+                  | Generated Answer        |
+                  | + Source References     |
+                  +-------------------------+
