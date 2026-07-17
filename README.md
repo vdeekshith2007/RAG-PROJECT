@@ -381,9 +381,9 @@ AI Engineer • Machine Learning • Generative AI • LangChain • FastAPI •
 
 ### Connect with me
 
-- 💼 LinkedIn: https://linkedin.com/in/yourprofile
-- 💻 GitHub: https://github.com/yourusername
-- 📧 Email: your@email.com
+- 💼 LinkedIn: https://linkedin.com/in/vataparthi-deekshith
+- 💻 GitHub: https://github.com/vdeekshith2007
+- 📧 Email: Vatapathideekshith18@gmail.com
 
 ---
 
