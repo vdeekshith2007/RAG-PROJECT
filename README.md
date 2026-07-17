@@ -130,7 +130,7 @@ RAG-PDF-QA
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/RAG-PDF-QA.git
+git clone https://github.com/vdeekshith2007/RAG-PDF-QA.git
 
 cd RAG-PDF-QA
 ```
